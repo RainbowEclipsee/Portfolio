@@ -1,0 +1,147 @@
+body {
+  background: #FFFFFF;
+  height: 100%;
+
+}
+
+body, h1, h2, h3, h4, p, ul[class], ol[class],
+li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+}
+
+h1 {
+  color: #070707;
+  padding-bottom: 1.5em;
+}
+
+p {
+  text-align: center;
+  padding: 1em;
+  color: #070707;
+}
+
+* {
+  font-family: Khula;
+}
+
+.header-container {
+  
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-weight: bold;
+  color: #828282;
+}
+
+.vector-container {
+  
+  padding-bottom: 1em;
+  max-width: 940px;
+  margin: 0 auto;
+
+}
+
+.vector {
+  display: flex;
+
+  border: 1px solid #828282;
+  transform: matrix(1, 0, 0, 0.6, 0, 0);
+}
+
+.info-block {
+
+  max-width: 940px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.name-item {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 50px;
+  align-self: flex-end;
+
+  color: #070707;
+}
+
+ .years-item {
+  align-self: flex-end;
+  line-height: 20px;
+  
+  color: #070707;
+}
+
+/* FIX */
+.lang-item {
+  align-self: stretch;
+  transform: rotate(90deg);
+
+  color: #070707;
+}
+
+.img-container {
+  padding: 3em;
+  padding-bottom: 7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-gallery-container {
+  padding: 3em;
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-grey-container {
+  padding: 6em;
+  background: #F6F6F6;
+  text-align: center;
+  
+}
+
+.text-white-container {
+  padding: 6em;
+  text-align: -webkit-center;
+}
+
+.paragraph-item {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #070707;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 4em;
+}
+
+.icon-text {
+  font-size: 14px;
+  color: #828282;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+.icon-container-footer {
+  display: flex;
+  justify-content: space-around;
+  max-width: 400px;
+  padding: 1em;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #828282;
+  padding: 3em;
+}
